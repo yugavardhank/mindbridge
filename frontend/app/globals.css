@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f0f4ff;
+  --bg2: #ffffff;
+  --blue-100: #e8eeff;
+  --blue-200: #c7d4ff;
+  --blue-400: #7b9cff;
+  --blue-500: #4f74f9;
+  --blue-600: #3a5ee8;
+  --pink-100: #fde8f5;
+  --pink-200: #f9c5e8;
+  --pink-400: #f07bc4;
+  --pink-500: #e855a8;
+  --text: #1a1f3c;
+  --text-mid: #5a6080;
+  --text-dim: #9aa0c0;
+  --border: #e2e8ff;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+}
